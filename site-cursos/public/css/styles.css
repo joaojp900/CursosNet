@@ -1,0 +1,129 @@
+body {
+    color: #fff;
+  }
+  /*Header - Banner - Vantagens */
+  .bg-primary {
+    background-color: #007bff !important;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .btn-primary:hover {
+    background-color: #004099;
+  }
+  
+  .text-white {
+    color: #fff !important;
+  }
+  
+  .container .rounded {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /*Cursos*/
+  .card {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-body {
+    background-color: #f8f9fa;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .card a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+
+  /*Depoimentos*/
+  .custom-carousel-container {
+    width: 95%;
+    max-width: 1200px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .custom-carousel-track {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .custom-carousel-item {
+    min-width: 300px;
+    margin: 0 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .custom-testimonial-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .custom-testimonial-footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .custom-carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+
+  .custom-carousel-button.prev {
+    left: -50px; /* Movido para fora */
+  }
+
+  .custom-carousel-button.next {
+    right: -50px; /* Movido para fora */
+  }
+
+  .custom-carousel-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  /*Footer*/
+  a.text-footer-desc:hover{
+    text-decoration:underline !important;
+  }

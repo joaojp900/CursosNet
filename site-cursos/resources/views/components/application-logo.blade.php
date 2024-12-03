@@ -1,0 +1,1 @@
+<img src="{{ asset('img/cursoc.png') }}" alt="Logo" style="width: 105px;"> 
