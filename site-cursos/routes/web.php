@@ -25,12 +25,21 @@ Route::get('duvidas', function(){
     return view('cursos.duvidas');
 });
  
+ //Para abrir os cursos disponiveis
+Route::get('/disponiveis', [CursoController::class, 'cursos'])->name('cursos.home');
+//Ver mais
+Route::get('/detalhes{curso}', [CursoController::class, 'detalhes'])->name('cursos.detalhes');
  
+//configuração do usuario
+Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+
  //Aluno
 Route::middleware('student')->group(function(){
 //Sair do curso
 Route::delete('/curso/{cursoId}/desinscrever', [CursoController::class, 'desinscrever'])->name('curso.desinscrever');
-
 //Certificado 
 Route::get('/certificado/{courseId}', [CursoController::class, 'gerarCertificado'])->name('certificado.gerar');
  //Ver Aula
@@ -49,22 +58,10 @@ Route::get('/mycursos', [CursoController::class, 'meusCursos'])->name('cursos.me
 Route::post('/cursos/{curso}/inscrever', [CursoController::class, 'inscrever'])->name('cursos.inscrever');
 });
 
- 
-//Para abrir os cursos disponiveis
-Route::get('/disponiveis', [CursoController::class, 'cursos'])->name('cursos.home');
-//Ver mais
-Route::get('/detalhes{curso}', [CursoController::class, 'detalhes'])->name('cursos.detalhes');
- 
-//configuração do usuario
-Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-
 //Adm
 Route::middleware('admin')->group(function () {
     //Coisas do Curso so Para o adm
-    Route::get('controle/curso/{id}', [CursoController::class, 'controleAlunos'])->name('alunos.controle');
-
+     Route::get('controle/curso/{id}', [CursoController::class, 'controleAlunos'])->name('alunos.controle'); 
      Route::get('cursos', [CursoController::class,'index'])->name('cursos.index');
      Route::get('cursos{curso}', [CursoController::class, 'show'])->name('cursos.show');
      Route::get('cursos/create',[CursoController::class,'create'])->name('cursos.create');
@@ -72,10 +69,7 @@ Route::middleware('admin')->group(function () {
      Route::get('cursos/{curso}/edit', [CursoController::class, 'edit'])->name('cursos.edit');
      Route::put('cursos/{curso}', [CursoController::class,'update'])->name('cursos.update');
      Route::delete('cursos{curso}',[CursoController::class, 'destroy'])->name('cursos.destroy');
-     
-    
-
-    Route::resource('aulas', AulaController::class);
+     Route::resource('aulas', AulaController::class);
     
 });
 
