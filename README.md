@@ -40,7 +40,8 @@ CursosNet é uma plataforma de cursos online desenvolvida em Laravel 11 e Vue.js
    php artisan serve
    ```
 
- Contribuições
-Sinta-se à vontade para contribuir para o projeto, relatando problemas ou enviando pull requests.
+ ADM 
+ Email = test@adm.com
+ Senha = admin123
 
  
