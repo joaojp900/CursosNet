@@ -2,18 +2,17 @@
 *CursosNet*
 
  Descrição
-CursosNet é uma plataforma de cursos online desenvolvida em Laravel 11 e Vue.js, com design responsivo utilizando Tailwind CSS e Bootstrap. O projeto foi criado para facilitar a inscrição de alunos em cursos e o gerenciamento por administradores.
+CursosNet é uma plataforma de cursos online desenvolvida em Laravel 11, com design responsivo utilizando Tailwind CSS e Bootstrap. O projeto foi criado para facilitar a inscrição de alunos em cursos e o gerenciamento por administradores.
 
  Funcionalidades
 - **Cadastro e gerenciamento de cursos**.
 - **Inscrição de alunos** e visualização de progresso.
 - **Interface moderna e amigável**.
 - **Desenvolvimento back-end** com Laravel.
-- **Front-end interativo** usando Vue.js.
+- **Front-end interativo** Tailwind.
 
  Tecnologias Utilizadas
 - **Back-end**: Laravel 11
-- **Front-end**: Vue.js
 - **Estilização**: Tailwind CSS, Bootstrap
 - **Banco de dados**: MySQL
 
