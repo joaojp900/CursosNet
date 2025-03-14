@@ -5,8 +5,9 @@
 CursosNet é uma plataforma de cursos online desenvolvida em Laravel 11, com design responsivo utilizando Tailwind CSS e Bootstrap. O projeto foi criado para facilitar a inscrição de alunos em cursos e o gerenciamento por administradores.
 
  Funcionalidades
-- **Cadastro e gerenciamento de cursos**.
-- **Inscrição de alunos** e visualização de progresso.
+- **Cadastro e gerenciamento de cursos para Adms**.
+- **Visualizar Cursos e Aulas e omitir o Certificado**.
+- **Inscrição de alunos** e visualização de Inscrições** .
 - **Interface moderna e amigável**.
 - **Desenvolvimento back-end** com Laravel.
 - **Front-end interativo** Tailwind.
