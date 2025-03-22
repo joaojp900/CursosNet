@@ -39,11 +39,12 @@ CursosNet é uma plataforma de cursos online desenvolvida em Laravel 11, com des
    ```bash
    php artisan serve
    ```
-
-   6. Inicie os Estilos:
+6. Inicie os Estilos:
    ```bash
-   npm run server
-   ```
+   npm run dev
+   ```   
+
+  
 
  ADM 
  Email = test@adm.com
