@@ -40,6 +40,11 @@ CursosNet é uma plataforma de cursos online desenvolvida em Laravel 11, com des
    php artisan serve
    ```
 
+   6. Inicie os Estilos:
+   ```bash
+   npm run server
+   ```
+
  ADM 
  Email = test@adm.com
  Senha = admin123
