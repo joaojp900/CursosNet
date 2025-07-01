@@ -1,7 +1,3 @@
-Segue o README profissional e completo do projeto **CursosNet**, com todas as configurações e instruções para facilitar a instalação e execução do sistema:
-
----
-
 # 🎓 CursosNet
 
 **CursosNet** é uma plataforma de cursos online desenvolvida em **Laravel 11**, com design responsivo utilizando **Tailwind CSS** e **Bootstrap**. O projeto foi criado com o objetivo de facilitar a inscrição de alunos em cursos, além de oferecer uma área administrativa para gerenciamento completo das formações disponíveis.
