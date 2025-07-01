@@ -12,8 +12,6 @@
 * ✅ Visualização de aulas
 * ✅ Interface responsiva e intuitiva
 * ✅ Login e autenticação diferenciada para administradores e alunos
-* 🚫 Certificados ainda não implementados (omitidos propositalmente)
-
 ---
 
 ## 🛠️ Tecnologias Utilizadas
